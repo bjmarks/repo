@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/index_style.css">
+	<title id="title"> - VideoCabinet.com</title>
+	<style> 
+	</style>
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<a href="index.html">
+				<img src="Img/VideoCabinet.png">
+			</a>
+		</div>
+		<div class="searchBar">
+			<input type="search" placeholder="Search">
+			<button onclick="alert('searched')">&#128269;</button>
+		</div>
+		</div>
+		<div class="userSet">
+			<button onclick="alert('can not Upload')">&Ufr;&pfr;&lfr;&ofr;&afr;&dfr;</button>
+			<button onclick="alert('can not Download')">&Dfr;&ofr;&wfr;&nfr;&lfr;&ofr;&afr;&dfr;</button>
+			<button onclick="alert('can not log-in')">&#129497;&#127996;</button>
+		</div>
+	 </header>
+	<hr style="clear: both;">
+	<div class="vidplayer"  width="50vw">
+		<div onclick="playPause()">
+		<video id="vid" src="Videos/Its Suppertime.mp4"></video>
+		</div>
+		<div id="vid_control-bar">
+			<button id="playpausebtn" onclick="playPause(this) ">&#9199;</button>
+			<button id="volume"> &#128263; &#128264; &#128265; &#128266;</button>
+			<button id="fullScreen">&#9713;</button>
+			<button id="vidSettings">&equiv;</button>
+			<button id="darkMode">&#9706;</button>
+			<button id="back10">&laquo;</button>
+			<button id="previous">&lt;</button>
+			<button id="next">&gt;</button>
+			<button id="forwrad10">&raquo;</button>
+			<button id="esc">x</button>
+		</div>
+		<br>
+		<button id="sub" onclick="sub() ">Suscribe</button>
+		<button id="like" onclick="like()">Like</button>
+		<button id="dlike" onclick="dLike()">Dislike</button>
+		<button id="join" onclick="join()">Join</button>
+		<button id="veiw" onclick="view()">Get views</button>
+		<div id="views"></div>
+		<br>
+	 </div>
+	<div class="vidcont">
+		<div class="vidbox">
+			<a href="">
+				<video src="Videos/Im a Dentist.mp4" poster="Img/poster.png"></video>
+				<h2>Title</h2> 
+				<p>Description</p>
+			</a>
+		</div>
+		<br>
+	 </div>
+<script src="javascript/scripts.js"></script>
+</body>
+</html>

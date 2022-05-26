@@ -1,0 +1,112 @@
+.logo img {
+	height: 100px;
+	width: auto;
+}
+.vidplayer {
+	padding-left: 10px;
+ 	float: left;
+ 	width: auto;
+}
+.vidbox video {
+ 	float: left;
+ 	width: auto;
+ 	height: 8vh;
+ 	margin-right: 10px;
+ 	margin-top: 1vh;
+ 	margin-left: 10px;
+ 	margin-bottom: 1vh;
+}
+.vidbox {
+    width: 98%;
+    margin-top: 1%; 
+    margin-right: 1%; 
+    margin-left: 1%;
+    float: right;
+ 	border:1px solid rgb(0,0,0);
+ 	overflow: hidden;
+ 	border-spacing: 1px;
+}
+.userSet {
+    float: right;
+}
+.userSet button {
+	font-size: 42px;
+    border:none; 
+    height: 62px; 
+    width: auto; 
+    cursor: grab; 
+    border-radius: 15px;
+}
+.vidcont {
+    float: right; 
+    width: 50vw;
+}
+ #sub {
+    background-color: red; 
+    color: white; 
+    border: none; 
+    height: 36px; 
+    width: 105px; 
+    cursor: pointer; 
+    border-radius: 15px;
+}
+ #like {
+    background-color:grey; 
+    color:white; 
+    border:none; 
+    height: 36px; 
+    width: 105px; 
+    cursor: pointer; 
+    border-radius: 15px;
+}
+#dlike {
+    background-color:grey; 
+    color:white; 
+    border:none; 
+    height: 36px; 
+    width: 105px; 
+    cursor: pointer; 
+    border-radius: 15px;
+}
+#join {
+    background-color:blue; 
+    color:white; 
+    border:none; 
+    height: 36px; 
+    width: 105px; 
+    cursor: pointer; 
+    border-radius: 15px;
+}
+#veiw{
+    background-color:beige; 
+    color:black; 
+    border:none; 
+    height: 36px; 
+    width: 105px; 
+    cursor: pointer; 
+    border-radius: 15px;
+}
+.searchBar {
+    background-color:grey; 
+    width: 30%; 
+    height: 15vh; 
+    float: left;
+}
+.logo {
+    float: left; 
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
