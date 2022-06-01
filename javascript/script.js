@@ -39,11 +39,11 @@ console.log("5 % 2 !== 0 becomes " + (5 % 2 !== 0));
 console.log('%c ------------------------------------ ', 'color: #222; background: #bada55');
 function varitables() {
     var a = 1;
-    console.log(a);
+    console.log("a is " + a);
     var b = a++;
-    console.log(b);
+    console.log("b is " + b);
     var c = ++a;
-    console.log(c);
+    console.log("c is " + c);
     console.log(a + " " + b + " " + c);
     var d = "hello";
     console.log(d);
