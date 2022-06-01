@@ -1,3 +1,4 @@
+"use strict";
 //JS Intro
 console.log('Hello World');
 console.log("99.9 is a " + typeof(99.9));
