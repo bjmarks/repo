@@ -44,7 +44,6 @@ function varitables() {
     console.log(b);
     var c = ++a;
     console.log(c);
-    // what is the value of a, b, and c?
     console.log(a + " " + b + " " + c);
     var d = "hello";
     console.log(d);
@@ -60,14 +59,12 @@ function varitables() {
     console.log(perplexed);
     var price = 2.7;
     console.log(price);
-    price.toFixed(2);
-    console.log(price);
+    console.log(price.toFixed(2));
     var price = "2.7";
     console.log(price);
-    price.toFixed(2);
-    console.log(price);
+    console.log(price.toFixed(2));
 }
-//varitables();
+varitables();
 console.log('%c ------------------------------------ ', 'color: #222; background: #bada55');
 console.log("0 is "	+ isNaN(0));
 console.log("1 is "	+ isNaN(1));
