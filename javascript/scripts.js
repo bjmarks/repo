@@ -161,4 +161,12 @@ function playPause( btn) {
       };
       console.log(joined);
     };
+    function watchPlayer() {
+      console.log("loading video");
+      var file = "/Users/benjaminmarks/projects/first-repository/Videos/By The Grace of The Gods/By The Grace of The Gods Ep. 01";
+      var video = document. getElementById('videoP');
+      var source = document. getElementsByTagName('source');
+          source.setAttribute('src', file +'.mp4');
+          video.load();
+    }
     

@@ -62,7 +62,7 @@ function varitables() {
     console.log(price.toFixed(2));
     var price = "2.7";
     console.log(price);
-    console.log(price.toFixed(2));
+    console.log("price with a toFixed stirng becomes " + (price.toFixed(2)));
 }
 varitables();
 console.log('%c ------------------------------------ ', 'color: #222; background: #bada55');
